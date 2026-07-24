@@ -1,3 +1,5 @@
+"""Display the Miraclib immune-cell analysis in an interactive dashboard."""
+
 from pathlib import Path
 
 import pandas as pd

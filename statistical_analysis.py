@@ -1,3 +1,5 @@
+"""Compare immune-cell frequencies between miraclib responders and non-responders."""
+
 import sqlite3
 from pathlib import Path
 
@@ -71,6 +73,7 @@ def load_analysis_data():
     return filtered, subject_means
 
 def benjamini_hochberg(p_values):
+    """Adjust multiple p-values using the Benjamini-Hochberg procedure."""
     ranked = sorted(
         enumerate(p_values),
         key=lambda item: item[1],

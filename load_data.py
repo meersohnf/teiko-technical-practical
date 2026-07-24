@@ -1,3 +1,5 @@
+"""Create and populate the normalized SQLite database from cell-count.csv."""
+
 import csv
 import sqlite3
 from pathlib import Path

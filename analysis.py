@@ -1,3 +1,5 @@
+"""Calculate and export cell-population relative frequencies for each sample."""
+
 import csv
 import sqlite3
 from pathlib import Path

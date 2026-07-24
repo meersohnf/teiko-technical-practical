@@ -1,10 +1,14 @@
 # Miraclib Immune Cell Analysis
 
+## Author
+
+Francisco Meersohn, M.S., MLS(ASCP)CM
+
 Python and SQLite pipeline for analyzing immune-cell populations in clinical trial samples. The project includes database creation, relative-frequency calculations, statistical testing, baseline subset analysis, and an interactive Streamlit dashboard.
 
 ## Dashboard
 
-The deployed dashboard URL will be added here after deployment.
+[Open the interactive Miraclib dashboard](https://teiko-technical-practical-dcm4kjdmb6cgyztiesnn4h.streamlit.app)
 
 ## Running the Project
 

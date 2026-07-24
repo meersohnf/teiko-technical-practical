@@ -1,3 +1,5 @@
+"""Generate baseline melanoma summaries and the requested B-cell average."""
+
 import sqlite3
 from pathlib import Path
 
