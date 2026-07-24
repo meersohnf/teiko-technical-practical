@@ -4,7 +4,7 @@ Python and SQLite pipeline for analyzing immune-cell populations in clinical tri
 
 ## Dashboard
 
-The deployed dashboard URL will be added here after deployment.
+[Open the interactive Miraclib dashboard](https://teiko-technical-practical-dcm4kjdmb6cgyztiesnn4h.streamlit.app)
 
 ## Running the Project
 
