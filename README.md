@@ -4,7 +4,7 @@ Francisco Meersohn, M.S., MLS(ASCP)CM
 
 # Miraclib Immune Cell Analysis
 
-Python and SQLite pipeline for analyzing immune-cell populations in clinical trial samples. The project includes database creation, relative-frequency calculations, statistical testing, baseline subset analysis, and an interactive Streamlit dashboard.
+A SQLite pipeline for looking at immune cell populations across a clinical trial. It loads the raw counts, works out relative frequencies per sample, tests whether any cell type tracks with treatment response, and pulls out a baseline subset for early timepoint analysis. There's a Streamlit dashboard on top so you can poke around the results without touching the code.
 
 ## Dashboard
 
@@ -56,7 +56,7 @@ The relationships are:
 - Each sample can contain counts for multiple cell populations.
 - The `cell_counts` table implements the relationship between samples and populations.
 
-This normalized design prevents repeated project, subject, and population information. It also allows additional projects, subjects, samples, timepoints, and cell populations to be added without restructuring the database. Analytical queries can filter metadata independently while joining only the necessary tables.
+This keeps project, subject, and population info from being repeated everywhere. It also means adding a new project, subject, sample, timepoint, or cell population later is just adding rows, not rebuilding the schema. And since everything's split out, a query can filter on whatever metadata it needs and only join the tables that are actually relevant.
 
 ## Code Structure
 
